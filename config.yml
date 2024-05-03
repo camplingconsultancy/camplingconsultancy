@@ -76,7 +76,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -127,10 +127,10 @@ params:
     title: "Mark Campling."
     subtitle: "Education and leadership consultant."
     content: |+
-      Tailoring Leadership and Coaching Programs to meet specific needs through:
-      coaching and mentoring school leaders
-      leading strategic planning processes with school communities and principal groups
-      leading and facilitating Communities of Practice across Queensland
+      Tailoring Leadership and Coaching Programs to meet specific needs through: <br>
+      - Coaching and mentoring school leaders <br>
+      - Leading strategic planning processes with school communities and principal groups <br>
+      - Leading and facilitating Communities of Practice across Queensland <br>
     image: /images/mark_campling.jpeg
     # image: "/images/campling_consultancy_logo_only.png"
     bottomImage:

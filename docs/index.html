@@ -204,10 +204,12 @@ Campling Consultancy
                     Education and leadership consultant.
                 </h3>
                 <p class="hero-content">
-                    Tailoring Leadership and Coaching Programs to meet specific needs through:
-coaching and mentoring school leaders
-leading strategic planning processes with school communities and principal groups
-leading and facilitating Communities of Practice across Queensland
+                    <p>Tailoring Leadership and Coaching Programs to meet specific needs through: <br></p>
+<ul>
+<li>Coaching and mentoring school leaders <br></li>
+<li>Leading strategic planning processes with school communities and principal groups <br></li>
+<li>Leading and facilitating Communities of Practice across Queensland <br></li>
+</ul>
                 </p>
                 <div class="row">
                     <div class="col-auto h-100">
@@ -552,15 +554,13 @@ leading and facilitating Communities of Practice across Queensland
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
     }
-
 </script>
+
+
 
 
 
